@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--META-SETUP-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--SEO & Social Meta Tags-->
+    <meta name="description" content="JinStore - Your trusted fashion and lifestyle store.">
+    <meta name="keywords" content="Emergency, Hotline">
+    <meta name="author" content="Shajib-Sadh">
+    <!--TITLE-->
+    <title>Emergency Service Directory</title>
+    <!--FAV-ICON-->
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <!--daisyui-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <!--tailwindcss-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--custom - css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation  area start -->
+    <nav class="container mx-auto px-3 py-2 bg-white flex justify-between items-center gap-2 md:gap-4">
+        <div class="flex gap-1 md:gap-3 items-center">
+            <img class="h-7 w-7 md:h-12 md:w-12" src="assets/logo.png" alt="Logo">
+            <div class="text-[#006747] font-bold leading-tight text-xs md:text-xl">
+                <h2>Emergency</h2>
+                <h2>Services</h2>
+            </div>
+        </div>
+        <div class="flex flex-wrap gap-2 md:gap-3 text-xs md:text-base font-extrabold justify-end">
+            <div
+                class="bg-[#ecfff0] py-1.5 px-4 md:py-3 md:px-9 rounded-3xl cursor-pointer flex gap-1 md:gap-2 items-center transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 active:scale-95">
+                <span id="heartValue">0</span>
+                <img class="h-5 w-5 md:h-7 md:w-7" src="assets/heart.png" alt="">
+            </div>
+            <div
+                class="bg-[#ecfff0] py-1.5 px-4 md:py-3 md:px-9 rounded-3xl cursor-pointer flex gap-1 md:gap-2 items-center transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 active:scale-95">
+                <span id="coinValue">100</span>
+                <img class="h-5 w-5 md:h-7 md:w-7" src="assets/coin.png" alt="">
+            </div>
+            <div id="copyValue"
+                class="bg-[#00A63E] text-white py-1.5 px-4 md:py-3 md:px-9 rounded-3xl cursor-pointer transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 active:scale-95">
+                Copy (<span id="copy-count">0</span>) </div>
+        </div>
+    </nav>
+    <script src="main.js"></script>
+</body>
+
+</html>
